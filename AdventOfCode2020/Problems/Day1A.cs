@@ -10,7 +10,7 @@ namespace AdventOfCode2020.Problems {
 
         private string path = "Input/input.txt";
 
-        public int SolveProblem(bool Part1) {
+        public int SolveProblem() {
 
             var inputString = File.ReadAllLines(path);
             int result = 0;

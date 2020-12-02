@@ -6,12 +6,10 @@ namespace AdventOfCode2020 {
     class Program {
         static void Main(string[] args) {
 
-            //var day1A = new Day1A();
-            //var result = day1A.SolveProblem(true);
-            //Console.WriteLine(result);
+            //var result = new Day1A().SolveProblem()
+            //var result = new Day1B().SolveProblem()
+            var result = new Day2A().SolveProblem();
 
-            var day1B = new Day1B();
-            var result = day1B.SolveProblem(false);
             Console.WriteLine(result);
         }
     }
