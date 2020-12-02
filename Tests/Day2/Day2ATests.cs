@@ -26,6 +26,7 @@ namespace Tests.Day2 {
         )]
         public void Test(string[] input, int expectedOutput) {
             var actualResult = day2A.FindValidPasswords(input);
+            Assert.AreEqual(expectedOutput, actualResult);
         }
 
     }
