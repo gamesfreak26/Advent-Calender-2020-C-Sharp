@@ -8,7 +8,8 @@ namespace AdventOfCode2020 {
 
             //var result = new Day1A().SolveProblem()
             //var result = new Day1B().SolveProblem()
-            var result = new Day2A().SolveProblem();
+            //var result = new Day2A().SolveProblem();
+            var result = new Day2B().SolveProblem();
 
             Console.WriteLine(result);
         }
