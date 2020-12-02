@@ -39,7 +39,7 @@ namespace AdventOfCode2020.Problems {
             var passwordString = splitSpace[2];
 
             var timesLetterAppears = passwordString.Count(x => x == letter);
-            if ((timesLetterAppears >= minNum) || (timesLetterAppears <= maxNum)) {
+            if ((timesLetterAppears >= minNum) && (timesLetterAppears <= maxNum)) {
                 return true;
             }
 
