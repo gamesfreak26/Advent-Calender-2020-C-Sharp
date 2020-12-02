@@ -10,7 +10,7 @@ namespace AdventOfCode2020 {
             //var result = day1A.SolveProblem(true);
             //Console.WriteLine(result);
 
-            var day1B = new Day1A();
+            var day1B = new Day1B();
             var result = day1B.SolveProblem(false);
             Console.WriteLine(result);
         }
